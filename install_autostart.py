@@ -49,6 +49,10 @@ def main():
         f'$s.Save()'
     )
 
+    if shortcut_path.exists():
+        print(f"✅ Ярлык уже установлен: {shortcut_path}")
+        return
+
     print(f"🔗 Создаю ярлык: {shortcut_path}")
     result = subprocess.run(
         ["powershell", "-NoProfile", "-Command", ps_script],
