@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tail:*)",
+      "Bash(cd \"C:/Users/VibeCodeBlogger/PycharmProjects/duns-checker\" && .venv/Scripts/python checker.py 2>&1)",
+      "Bash(cd \"C:/Users/VibeCodeBlogger/PycharmProjects/duns-checker\" && .venv/Scripts/python install_autostart.py 2>&1)"
+    ]
+  }
+}
